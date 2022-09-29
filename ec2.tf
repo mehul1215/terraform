@@ -4,7 +4,7 @@ resource "aws_instance" "web" {
     count = 1
     key_name = "Jenkins-Key"
     tags = {
-      "Name" = "web"
+      "Name" = "my-server"
     }
   
 }
